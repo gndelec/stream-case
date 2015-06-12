@@ -2,12 +2,13 @@
 
 ![MRFC-01 case](/images/00-prod-shot.jpg)
 
-An acrylic enclosure designed to accommodate the Myriad-RF STREAM board. Features include:
+*Note: shown with 2x RF modules fitted, whereas only one at a time would be used in practice.*
+
+An acrylic enclosure designed to accommodate the Myriad-RF STREAM board and an RF module. Features include:
 
 * Hardware for secure mounting of boards
-* Array of holes for mounting output connectors
+* Array of holes for panel mount SMA connectors
 * Array of additional PEEK+ spaced holes for mounting other hardware
-
 
 A complete kit of parts can be bought from [Ground Electronics](http://groundelectronics.com/products/).
 
@@ -40,14 +41,16 @@ In addition to the acrylic parts the MRFC-01 kit contains:
 |  6  | Self Adhesive Rubber Bumpers        |
 
 
-
 ## Other hardware required
 
 - STREAM board
-- LMS7002EVB board
-- Myriad-RF module
+- [LMS7002EVB](http://www.digikey.co.uk/product-detail/en/UNITE7002/1434-1004-ND/5012881) or [Myriad-RF 1](https://myriadrf.org/projects/rdk/) module
 
 ## Assembly
+
+Note that the STREAM board can be used standalone, or with an LMS7002EVB *or* Myriad-RF 1 module fitted. The photos in this repository show it with both of these fitted at the same time, however, this has not been tested and is not recommended! If using an RF module please following the instructions to fit one *or* the other.
+
+### Common
 
 ![Parts laid out](/images/01-layOut.jpg)
 
@@ -55,7 +58,7 @@ In addition to the acrylic parts the MRFC-01 kit contains:
 
 ![Peel off acrylic backing](/images/02-peel.jpg)
 
-- Remove the protective backing from the acrylic parts. Note that this is likely to generate static electricity - be aware of this and careful not to do this near any electronic hardware that may be sensitive to static electricity. Wipe any clouding / marks from acrylic that may have occured during manufacture.
+- Remove the protective backing from the acrylic parts. Note that this is likely to generate static electricity and be not to do this near sensitive electronics. Wipe any clouding / marks from the acrylic that may have occured during manufacture.
 
 ![Standoff Remove](/images/03-standoffRemove.jpg)
 
@@ -93,7 +96,9 @@ In addition to the acrylic parts the MRFC-01 kit contains:
 
 - Add 2 x M2.5 x 6mm screws through STREAM board, either side of the J21 connector.
 
-STEPS BELOW ARE OPTIONAL: depending on extra boards to be used. Photos show both boards connected for convenience of viewing but this setup has not been tested: it is expected either one or the other will be used.
+** Note: The following steps are optional and which you follow will depend on which RF module you are using. Later photos show both boards fitted, but this has not been tested, is not advised and no responsibility will be accepted for any damage caused by applying power with both the LMS7002EVB and Myriad-RF 1 module fitted! **
+
+### Use with LMS7002EVB (UNITE)
 
 ![washers](/images/12-m3washers.jpg)
 
@@ -107,6 +112,8 @@ STEPS BELOW ARE OPTIONAL: depending on extra boards to be used. Photos show both
 
 - Add 4 x M3 hex nuts to hold LMS7002EVB in place. Again noting care to not overtighten.
 
+### Use with Myriad-RF 1 module
+
 ![MyriadRF](/images/15-MyriadRF.jpg)
 
 - Add Myriad-RF module to STREAM board (Note that extra care should be taken due to the delicate nature of the connectors used)
@@ -114,6 +121,8 @@ STEPS BELOW ARE OPTIONAL: depending on extra boards to be used. Photos show both
 ![nuts](/images/16-nuts.jpg)
 
 - Add 3 x M3 hex nuts to hold Myriad-RF module in place (note that one corner does not allow for an M3 hex nut due insufficient clearance of nearby header)
+
+### Completing case assembly
 
 ![sides](/images/17-sides.jpg)
 
@@ -129,7 +138,7 @@ STEPS BELOW ARE OPTIONAL: depending on extra boards to be used. Photos show both
 
 - Turn the assembly over and stick the 6 x self adhesive rubber bumpers to the base.
 
-##Notes
+## Notes
 
 - The MRFC-01 case includes PEEK+ array (15mm) compatible hole spacing for easy addition of modules and hardware should you wish to exapnd your system. Note that we used 3mm holes to allow for use of M3 hardware and avoid the need for extra threaded push-fit parts.
 
