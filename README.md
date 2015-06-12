@@ -44,8 +44,8 @@ In addition to the acrylic parts the MRFC-01 kit contains:
 ## Other hardware required
 
 - STREAM board
-- LMS3002EVB board
-- MyriadRF module
+- LMS7002EVB board
+- Myriad-RF module
 
 ## Assembly
 
@@ -91,13 +91,13 @@ In addition to the acrylic parts the MRFC-01 kit contains:
 
 ![screws](/images/11-m2pt5screws.jpg)
 
-- Add 2 x M2.5 x 6mm screws through STREAM board.
+- Add 2 x M2.5 x 6mm screws through STREAM board, either side of the J21 connector.
 
 STEPS BELOW ARE OPTIONAL: depending on extra boards to be used. Photos show both boards connected for convenience of viewing but this setup has not been tested: it is expected either one or the other will be used.
 
 ![washers](/images/12-m3washers.jpg)
 
-- Add M3 washers to 4 x M3 x 25mm standoffs to get correct height for LMS7002EVB board (we found 2 or 3 to work well depending on the washers used).
+- Add M3 washers to 4 x M3 x 25mm standoffs to get correct height for LMS7002EVB board (we found 2 or 3 per standoff to work well depending on the washers used).
 
 ![LMS7002EVB](/images/13-lmsBoard.jpg)
 
